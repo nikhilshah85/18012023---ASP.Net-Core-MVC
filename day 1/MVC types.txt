@@ -1,0 +1,15 @@
+
+
+
+
+		Model
+			Class file - POCO classes with properties and methods
+
+		View (.cshtml)
+			Action View (Web Page)
+			Partial View (Custom Control, reusable in multiple pages)
+			Layout view (Master page)
+
+		Controller
+			MVC Controller
+			API Controller (for developing webapi)

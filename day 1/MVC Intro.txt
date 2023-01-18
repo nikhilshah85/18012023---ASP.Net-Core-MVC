@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+		Model(.cs) - CRUD, sort, filter, data calculation, data validation, LINQ, DS
+
+		View (.cshtml) - Razor Syntax 
+			    HTML, CSS, JS, bootstrap etc...
+			    Client Side validation,
+			    client side calculation
+			    client side WebAPI calls
+
+		Controller (.cs) - Collect data from Model give it to view
+				   Collect data from View give it to model
+				   Authentication, Caching, Security, encryption etc...
+
+
+	

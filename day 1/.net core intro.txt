@@ -1,0 +1,80 @@
+
+
+
+			.Net core vs .Net framework 
+	
+		.Net Framework
+			Available only for windows
+				Visual Studio (Licence cost) - high 
+				Windows OS (Licence)
+				Windows Server 
+
+				This is costly
+			Additionally, challange with ASP.Net framework
+			Not made for responsive web
+			Not following any Design pattern
+			challanges with maintainance, internal technical challanges etc..
+
+			integration with cloud apps and services
+	------------This is not looking good 
+		Agaist this, we have
+				Angular, React, Node, -- free everywhere
+							 cross platform
+							 open source
+							 developement for todays world
+				VIM, Sublime, Note++ - all free and available everywhere
+				NodeJS - host free anywhere, very fast web server
+	
+	--------------------------------------------
+		Thus a complete write, .net core
+			++integration with cloud apps and services
+	------------------------------------------------------------------------------------
+
+	Demo
+		Create a .net core MVC app, on any platform, using .Net Core CLI
+			Create, Build, run and test
+
+			
+			dotnet --version
+			dotnet new mvc --name firstcoreMVC 
+			dotnet build
+			dotnet run
+			
+		open the same with VS Code and make changes from there
+
+	Try the same 
+
+		dotnet cli commands
+		https://learn.microsoft.com/en-us/dotnet/core/tools/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

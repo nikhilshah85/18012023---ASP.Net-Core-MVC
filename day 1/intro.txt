@@ -1,0 +1,19 @@
+ASp.net core MVC
+- EF Core with SQL Server
+- Identity Framework - oAuth
+- WebAPI Consumption 
+	- bootstrap, Jquery, C#, Linq
+
+	Services, Middlware, routing etc..
+----------------------------------------------
+Pre-requisite 	
+HTML, CSS and JS
+OOPS
+
+Lab - softwares (Own Machine / Cognizant cloud lab)
+Visual Studio 2019/2022 - .net core 7.0
+SQL Server with SSMS
+
+---------------------------------
+Be on time
+Be interactive
