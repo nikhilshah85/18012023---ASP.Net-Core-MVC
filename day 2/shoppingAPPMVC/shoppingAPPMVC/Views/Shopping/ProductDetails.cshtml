@@ -1,0 +1,76 @@
+﻿
+
+
+<h2 style="text-align:center"> Product List </h2>
+
+@*
+<table class="table table-bordered table-striped" style="color:brown">
+
+    @foreach (var item in ViewBag.pList)
+    {
+     <tr>
+            <td> @item.pId </td>
+            <td> @item.pName </td>
+            <td> @item.pCategory </td>
+            <td> @item.pPrice </td>
+            <td> @item.pIsInStock </td>
+            <td> <button class="btn btn-primary"> Add To Cart</button> </td>
+            <td> <button class="btn btn-success">Edit</button> </td>
+            <td> <button class="btn btn-warning"> Delete</button> </td>
+     </tr>   
+    }
+
+</table>*@
+
+
+@foreach (var item in ViewBag.pList)
+{
+
+    @if (item.pIsInStock)
+    {
+        <div style="background-color:lime; margin:10px; padding:10px;color:purple;border-radius:20px">
+            <h2> @item.pName (# @item.pId)</h2>
+            <h2> @item.pCategory</h2>
+            <h2> @item.pPrice</h2>
+            <button class="btn btn-primary"> Add</button>
+
+        </div>
+    }
+    else
+    {
+        <div style="background-color:red; margin:10px; padding:10px;color:white;border-radius:20px">
+            <h2> @item.pName (# @item.pId)</h2>
+            <h2> @item.pCategory</h2>
+            <h2> @item.pPrice</h2>
+            <button class="btn btn-danger" disabled> Add</button>
+
+        </div>
+    }
+
+ 
+ <hr />
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
