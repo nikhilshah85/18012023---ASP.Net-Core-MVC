@@ -1,0 +1,68 @@
+OLEDB - ADO.Net 
+	Very good and useful
+	Challanges 
+		a. Very lenghty
+		b. ADO.net - not based on any Design pattern		
+			Where as we have ORM 
+
+	MS now introduces Entity Framework Core, which uses ORM, write short code useing LINQ
+
+-------------------------------------------------------------------------------
+
+	Our Example : ASP.net Core MVC APP - useing EF Core with SQL Server
+
+
+
+
+------------------------------------------------------------------------------------
+1. Connect SQL Server, create a database, add a table with some data
+	https://codeshare.io/8pdjwB
+2. Create a new ASP.net MVC Core APP
+3. Install EF Core packages (4 packages in a sequence)
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore	
+	Microsoft.EntityFrameworkCore.SqlServer
+4. Create Models from database, 
+	Build the application
+	Tools -> Nuget package manager -> Console (Powershell)
+
+	Scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;database=shoppingDB;integrated security=true" -OutputDir Models\EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+5. Check the Models/EF folder you will have files for tables (POCO classes) and DBContext File
+
+6. Build the app, Right click on controller add controller, MVC Controller with EF Core
+
+7. Choose the table and DBFile, add the controller, 
+	This will create the controller and Views in the view folder
+
+8. In the controller file, instantiate the obj of DB Context, comment out the constructor
+	(This is trying to use DI by default)
+
+9. Update layout page, add link to Index action of new controller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

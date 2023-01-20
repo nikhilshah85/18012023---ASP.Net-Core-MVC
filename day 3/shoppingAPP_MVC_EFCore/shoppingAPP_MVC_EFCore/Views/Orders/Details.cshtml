@@ -1,0 +1,42 @@
+﻿@model shoppingAPP_MVC_EFCore.Models.EF.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ODate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ODate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OStatus)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OAmount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OAmount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OP)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OP.PId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.OId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

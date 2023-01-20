@@ -1,0 +1,3 @@
+Tomorrow:
+	1. Communication between View and Controller to Model
+	2. EF Core with SQL Server database and complete CRUD Operations
