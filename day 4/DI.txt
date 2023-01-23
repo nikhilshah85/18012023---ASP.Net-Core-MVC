@@ -1,0 +1,69 @@
+Today - 
+	Dependency Injection
+	Data Annotation 
+----------------------------------------------------------------------------------------------------
+
+		This is to do with Performance and Lazy Loading 
+
+------------------------------------------------------------------------------------------------------
+		1. Do you write destructor in C# ?
+		2. We do not write code, to release referennces, memory allcation, release files etc..
+	
+	Because GC will take care of it - but when we dont know
+		This is a webapp, requestes keeps on increasing and thus it is a problem 
+
+
+	Thus now on, Runtime will take care of clearing the resource
+		Provided, runtime will create the objects
+
+
+
+	1. DI - runtime will create the object and destroy the object
+	2. There are 3 ways - timeline, where the object will be destroyed 
+		3 methods
+
+		a. Percall - new object will be created and destroyed after response
+			Transcient - method name
+		b. PerSession - new object will be created for every user, and destroyed when user logsout
+			Scoped - scoped to a user
+		c. StaticObj - 1 object created when application starts, destroyed when app stops
+			SingleTon
+
+	DI is used as a Service, this is a service by runtime
+
+	Some scenerioes on Methods
+
+	a. PerCall - when objects / data is highly dynamic and needs object to created for every calls
+		because data will differ and kind of data may be different as well
+			eg. Stock Rate, Temperature rate (for differnt places, geographies etc..)
+	b. PerSession - when data is specific and confendential to every user
+			eg. Login to bank account, credit card details, profile etc...
+	c. SingleTon - Same object for everyuser, does not need to be creatd every time
+			eg. Connection string, Railway schedule, Flight Schedule 
+--------------------------------------------------------------------------------------------
+		Once you try this, in the same app, add support for EF by addding 4 nuget packages for
+		EF
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
