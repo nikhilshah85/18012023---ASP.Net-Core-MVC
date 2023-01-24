@@ -1,0 +1,5 @@
+Tomorrow:
+	Consume WebAPI in your application 
+		2 ways (both very important)
+		Client Side
+		Server side

@@ -1,0 +1,29 @@
+Task:
+	Display User Data from JSONPlaceholder api
+
+	https://jsonplaceholder.typicode.com/users
+
+	Display below details in a table
+	
+	Id Name Email City Lat Lon CompanyName CompanyCatchPhase
+
+----------------------------------------------------------------------------------------
+Task 2:
+	In the call to post data
+		Convert - post id to a URl - hyperlink
+		When the user clicks on PostID
+			take them to a new page which will display the comments for the same
+		Comments are available on below link
+
+https://jsonplaceholder.typicode.com/posts/30/comments	
+
+	30 above is the post, replace the same with what user will click
+
+
+
+
+
+
+
+
+

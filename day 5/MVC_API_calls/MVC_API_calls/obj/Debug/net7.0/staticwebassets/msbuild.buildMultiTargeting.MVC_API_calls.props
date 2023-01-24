@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVC_API_calls.props" />
+</Project>

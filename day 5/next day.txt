@@ -1,0 +1,3 @@
+Tomorrow :
+	a. WebAPI call useing C#
+	b. Layout page and Partial page (Custom)

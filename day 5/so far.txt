@@ -1,0 +1,16 @@
+MVC
+EF Core
+DI and Data annotation
+Consume Service data - RESTAPI Service - (webapi in .net)
+		Service is all about data, been shared by client
+		This is JSON data, you need to consume the data and disply them in View
+	(One of the major activity WebDeveloper/MVC developer does)
+
+	There are 2 ways to make API calls
+	1. Useing standard Fetch API - obj of browser 
+		known as client side calls - uses Javascript 
+		This is the fastest way to get the data
+		less secure and not suitable for critical data like - login, credit card etc.
+	2. useing standard HttpClient object
+		known as server side calling
+		a bit slow than above 1, but safest 
