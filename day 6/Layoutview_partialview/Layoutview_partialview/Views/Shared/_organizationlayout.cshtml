@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body style="background-color:orangered">
+    <h1 style="text-align:center"> Custom Layout Page  </h1>
+    <p style="text-align:center"> This is a custom layout page</p>
+
+
+    <table class="table table-bordered">
+        <tr> 
+            
+
+            <td> @Html.ActionLink("Home","Index","Home"); </td>
+
+
+            <td> @Html.ActionLink("Banking","BankingHome","Banking"); </td>
+            <td> @Html.ActionLink("Fund Transfer","Transfer","Banking"); </td>
+            <td> @Html.ActionLink("Services","Services","Banking"); </td>
+            <td> @Html.ActionLink("Accounts","Accounts","Banking"); </td>
+
+            <td> @Html.ActionLink("Privacy Policy","Privacy","Home"); </td>
+        </tr>
+    </table>
+
+    <div style="background-color:aqua">
+        @RenderBody()
+    </div>
+    <h6> This is a footer section</h6>
+</body>
+</html>

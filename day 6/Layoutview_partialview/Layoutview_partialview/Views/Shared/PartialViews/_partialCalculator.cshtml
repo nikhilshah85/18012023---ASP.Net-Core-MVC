@@ -1,0 +1,26 @@
+﻿
+
+
+<script>
+    function calculateSimpleIntrest()
+    {
+        var principal = document.getElementById("txtPrincipal").value;
+        var roi = document.getElementById("txtROI").value;
+        var year = document.getElementById("txtYear").value;
+
+        var intrest = (parseInt(principal) * parseInt(roi) / 100) * parseInt(year);
+        alert(intrest);
+        document.getElementById("simpleIntrest").innerText = "Simple Intrest is " + intrest;
+       
+    }
+</script>
+
+
+<div style="background-color:lime">
+    <input type="number" placeholder="Enter Principal Amount" id="txtPrincipal" /> <br />
+    <input type="number" placeholder="Enter ROI" id="txtROI" /> <br/>
+    <input type="number" placeholder="Enter Year" id="txtYear" /> <br />
+    <button onclick="calculateSimpleIntrest()"> Calculate EMI </button> <br />
+
+    <h1 id="simpleIntrest"> </h1>
+</div>

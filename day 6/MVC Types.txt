@@ -1,0 +1,14 @@
+
+
+
+Model 
+	Create a class and add properties
+	Generate class using EF
+Controller
+	MVC Controller
+	API Controller (for webapi)
+Views
+	ActionView (we are using this since day 1)
+	Layout view (we use this for common look at feel, we are useing a default 1, we will create 
+				our own now)
+	partial view(custom control)
